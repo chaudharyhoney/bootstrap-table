@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.container {
+    background-image: url(../image/wave1.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    /* background-color: beige; */
+    border-radius: 50px;
+
+}
+
+.invoice-box {
+    /* background-image: url(/image/background.png); */
+    background-image: url("../image/wave.png");
+    background-position: top;
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 50px;
+
+}
+
+h1 {
+    display: inline-block;
+    border: 3px solid;
+    color: beige;
+    border-color: rgb(225, 64, 64) !important;
+}
+
+button {
+    background-color: rgb(225, 64, 64);
+    border: none;
+    padding: 10px 20px;
+    color: beige;
+}
+
+.totle-amount span {
+    background-color: rgb(225, 64, 64);
+    color: beige;
+    padding: 10px 20px;
+}
+.parson-info{
+    padding-top: 60px;
+}
+.table-responsive thead tr {
+    background-color: rgb(225, 64, 64);
+    color: beige;
+}
+
+.sign input {
+    border: none;
+    border-bottom: 1px solid;
+    background-color: transparent;
+}
+
+.sign input:focus-visible {
+    outline: none;
+}
